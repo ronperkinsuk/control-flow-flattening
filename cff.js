@@ -2,10 +2,6 @@
 /**
  * Control Flow Flattening — zero dependencies, pure JS
  *
- * @author  Ron Perkins (c) 
- * @version 1.0.0
- * @date    2025-06-05
- *
  * Pipeline:
  *   source → tokenise() → parse() → cff() → generate() → source
  *
@@ -25,6 +21,12 @@
  * Usage:
  *   node cff.js input.js
  *   node cff.js input.js output.js
+ *
+ * @author  Ron Perkins
+ * @version 1.0.0
+ * @date    2025-06-05
+ *
+ * Copyright (c) 2025-2026 Ron Perkins
  */
 
 "use strict";
