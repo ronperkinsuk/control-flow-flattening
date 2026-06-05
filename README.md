@@ -1,4 +1,4 @@
-# cff.js — Control Flow Flattening for JavaScript
+# Control Flow Flattening for JavaScript
 
 A zero-dependency, pure JavaScript tool that applies **control flow flattening** (CFF) to JavaScript source files. It transforms readable function bodies into opaque `while/switch` state machines, making the code significantly harder to reverse-engineer.
 
